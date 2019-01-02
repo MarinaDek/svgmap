@@ -1,0 +1,64 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+.header {
+  height: 150px;
+  background: #0C1446;
+}
+.header h1{
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  
+}
+.container{
+  float: left;
+  background: #2B7C85;
+  width: 20%;
+  height: 1100px;
+  
+}
+
+.container h3{
+  text-align: center;
+  color: #fff;
+}
+.main{
+  float: right;
+  width: 80%;
+  background: #175873;
+  height: 1100px;
+  
+}
+.clear{
+  clear: both;
+}
+//svg path:hover {stroke: #ffffff; fill: red;}
+svg{
+  display: block;
+  margin: 0 auto;
+  margin-top: -250px;}
+
+path:hover {
+  
+}
+
+.info_panel {
+  background-color: rgba(255,255,255, .8);
+  padding: 10px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #333;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel::first-line {
+  font-weight: bold;
+}
+
+
+
+

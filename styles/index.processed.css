@@ -1,0 +1,99 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+ body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#2AF598, #000);
+  font-family: 'Roboto', sans-serif;
+ }
+.cont{
+  height: 100vh;
+}
+.header {
+  height: 100px;
+}
+
+.header h1 {
+  text-align: center;
+  padding-top: 30px;
+  color: #000;
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+  background-color: #fff;
+  float: right;
+  width: 460px;
+  height: auto; 
+  border-radius: 20px;
+  margin-top: 300px;
+  margin-right: 120px;  
+}
+.container p{
+  font-size: 15px;
+}
+.container h3 {
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+.right{
+  float: right;
+  padding: 10px;
+}
+.left{
+  float: left;
+  padding: 10px;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  margin-top: -300px;
+}
+
+.info_panel {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 8px;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+  border: 1px solid #333;
+  color: #333;
+  white-space: nowrap;
+}
+
+.info_panel::first-line {
+  font-weight: bold;
+}
+.block-info {
+  background-color: rgba(255,255,255, .8);
+  padding: 10px;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  top: 10px;
+  right: 60px;
+  position: absolute;
+  color: #333;
+  white-space: nowrap;
+}
+
+.block-info::first-line {
+  font-weight: bold;
+}
